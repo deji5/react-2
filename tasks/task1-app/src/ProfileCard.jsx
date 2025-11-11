@@ -18,9 +18,9 @@ function ProfileCard() {
       </div>
 
       <div className="text-center mt-4 px-4">
-        <h2 className="text-xl font-semibold text-gray-800">John Doe</h2>
-        <p className="text-sm text-gray-500">Software Engineer</p>
-        <p className="text-sm text-gray-400 mt-1">Lagos, Nigeria</p>
+        <h2 className="text-xl font-semibold text-gray-800">Adedeji Samuel</h2>
+        <p className="text-sm text-gray-500">Ai Developer</p>
+        <p className="text-sm text-gray-400 mt-1">Ogun, Nigeria</p>
       </div>
 
       <div className="flex justify-between text-center mt-5 px-6">
