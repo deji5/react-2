@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-green-700 text-white shadow-md fixed w-full z-20 top-0 left-0">
+    <nav className="bg-green-500 text-black shadow-md fixed w-full z-20 top-0 left-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left: Logo */}
@@ -15,10 +15,10 @@ export default function Navbar() {
 
           {/* Center: Navigation links (hidden on mobile) */}
           <div className="hidden md:flex space-x-8 font-medium">
-            <a href="#" className="hover:text-green-200 transition-colors">Home</a>
-            <a href="#" className="hover:text-green-200 transition-colors">Shop</a>
-            <a href="#" className="hover:text-green-200 transition-colors">Deals</a>
-            <a href="#" className="hover:text-green-200 transition-colors">Contact</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Home</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Shop</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Deals</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Contact</a>
           </div>
 
           {/* Right: Cart + Login button */}
@@ -29,7 +29,7 @@ export default function Navbar() {
                 3
               </span>
             </button>
-            <button className="bg-white text-green-700 px-4 py-1.5 rounded-lg font-semibold hover:bg-green-100 transition-colors">
+            <button className="bg-white text-blue-700 px-4 py-1.5 rounded-lg font-semibold hover:bg-blue-400 transition-colors">
               Login
             </button>
 
@@ -51,10 +51,10 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col space-y-4 p-4 font-medium">
-          <a href="#" className="hover:text-green-200 transition-colors">Home</a>
-          <a href="#" className="hover:text-green-200 transition-colors">Shop</a>
-          <a href="#" className="hover:text-green-200 transition-colors">Deals</a>
-          <a href="#" className="hover:text-green-200 transition-colors">Contact</a>
+          <a href="#" className="hover:text-blue-500 transition-colors">Home</a>
+          <a href="#" className="hover:text-blue-500 transition-colors">Shop</a>
+          <a href="#" className="hover:text-blue-500 transition-colors">Deals</a>
+          <a href="#" className="hover:text-blue-500 transition-colors">Contact</a>
         </div>
       </div>
     </nav>
